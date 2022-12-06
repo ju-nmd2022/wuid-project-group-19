@@ -51,6 +51,53 @@ main.active {
   cursor: pointer;
 }
 
+.basketlogo {
+  height: 2rem;
+  transition: 0.4s ease;
+}
+
+.basketlogo:hover {
+  height: 2.4rem;
+  content: url("../images/basket2.png");
+}
+
+.shake {
+  animation: shake 1s;
+  height: 2.4rem;
+  content: url("../images/basket2.png");
+}
+
+@keyframes shake {
+  10% {
+    rotate: -14deg;
+  }
+
+  20% {
+    rotate: 0deg;
+  }
+
+  30% {
+    rotate: 14deg;
+  }
+
+  40% {
+    rotate: 0deg;
+  }
+
+  50% {
+    rotate: -14deg;
+  }
+
+  60% {
+    rotate: 0deg;
+  }
+
+  70% {
+    rotate: 14deg;
+  }
+
+}
+
 .logo {
   object-fit: contain;
   width: 160px;

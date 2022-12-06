@@ -33,3 +33,14 @@ function changePrice() {
     totalPrice.innerHTML = "€ 0"
   }
 }
+
+const addToCart = document.querySelector(".add-button");
+const basketLogo = document.querySelector(".basketlogo");
+
+addToCart.addEventListener("click", () => {
+  basketLogo.classList.add("shake");
+  setTimeout(function () {
+    basketLogo.classList.remove('shake');
+  }, 1100);
+})
+

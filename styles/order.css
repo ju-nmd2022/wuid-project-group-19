@@ -8,7 +8,7 @@ main {
   border-radius: 0.5em;
 }
 
-img {
+.product-img {
   max-width: 50%;
   border-radius: 10px;
 }
@@ -39,7 +39,7 @@ h1 {
     flex-direction: column;
   }
 
-  img {
+  .product-img {
     max-width: 100%;
   }
 }
