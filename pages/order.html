@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../styles/general.css" />
+  <link rel="stylesheet" href="../styles/order.css" />
+  <script src="../scripts/script.js" defer></script>
+  <title>Movibe chocolate</title>
+</head>
+
+<body>
+  <header>
+    <!-- Used this tutorial to make hamburger menu https://www.youtube.com/watch?v=flItyHiDm7E -->
+    <nav class="navbar">
+      <img src="../images/logo.png" alt="logo" class="logo" onclick="window.location='../index.html'" />
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="../index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="categories.html" class="nav-link">Categories</a>
+        </li>
+        <li class="nav-item">
+          <a href="basket.html" class="nav-link">Basket</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <img src="../images/rae-wallis-gOyJlO56j-Y-unsplash.jpg" alt="box with 5 chocolates" />
+
+    <div class="product-content">
+      <h1>Movibe chocolate</h1>
+
+      <p>
+        The perfect chocolate to enjoy with your partner while watching a
+        romantic movie.
+      </p>
+      <p class="product-price">€10</p>
+      <p class="delivery">Free deliveries for orders over €50</p>
+
+      <button onclick="assignLocation('basket.html')">Add to cart</button>
+    </div>
+
+  </main>
+
+</body>
+
+</html>

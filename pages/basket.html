@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../styles/general.css" />
+  <link rel="stylesheet" href="../styles/basket.css" />
+  <script src="../scripts/script.js" defer></script>
+  <title>MOVIBE</title>
+</head>
+
+<body>
+  <header>
+    <!-- Used this tutorial to make hamburger menu https://www.youtube.com/watch?v=flItyHiDm7E -->
+    <nav class="navbar">
+      <img src="../images/logo.png" alt="logo" class="logo" onclick="window.location='../index.html'" />
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="../index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="categories.html" class="nav-link">Categories</a>
+        </li>
+        <li class="nav-item">
+          <a href="basket.html" class="nav-link">Basket</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Basket</h1>
+
+    <div class="basket">
+
+      <img src="../images/hotchocolate.jpeg" alt="hot chocolate" />
+      <div>
+        <h3>Hot chocolate Laird</h3>
+        <p>Flavour: salted caramel</p>
+        <p>Servings: 12</p>
+      </div>
+      <div class="price">
+        <input type="number" value="1" min="0" oninput="changePrice()" />
+        <h3>€10/pc</h3>
+      </div>
+
+    </div>
+
+    <div class="paying">
+
+      <div class="total">
+        <h1>Total:</h1>
+        <h1 class="total-price">€ 10</h1>
+      </div>
+
+      <button>Continue to shipping and payment</button>
+      <p class="free-shipping">Free shipping from € 50</p>
+
+    </div>
+
+  </main>
+  <footer></footer>
+</body>
+
+</html>

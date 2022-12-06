@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../styles/general.css" />
+  <link rel="stylesheet" href="../styles/romanticdate.css" />
+  <script src="../scripts/script.js" defer></script>
+  <title>MOVIBE</title>
+</head>
+
+<body>
+  <header>
+    <!-- Used this tutorial to make hamburger menu https://www.youtube.com/watch?v=flItyHiDm7E -->
+    <nav class="navbar">
+      <img src="../images/logo.png" alt="logo" class="logo" onclick="window.location='../index.html'" />
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="../index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="categories.html" class="nav-link">Categories</a>
+        </li>
+        <li class="nav-item">
+          <a href="basket.html" class="nav-link">Basket</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <div class="categorie-item">
+      <p>Romantic Date</p>
+    </div>
+
+    <div class="instructions">
+
+      <h3>STEP 1: Food and drinks</h3>
+      <p>Hot chocolate</p>
+      <button class="button" id="chocolate" type="button" onclick="assignLocation('order.html')">
+        Buy our own chocolate here!
+      </button>
+      <p>Fruit Champagne</p>
+
+      <h3>STEP 2: Supplies</h3>
+      <p>Pillows</p>
+      <p>Cozy lights</p>
+
+      <h3>STEP 3: Start movie</h3>
+      <img src="../images/notebook.jpeg" alt="The Notebook Cover" width="70px" />
+
+    </div>
+
+  </main>
+</body>
+
+</html>

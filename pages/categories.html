@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../styles/general.css" />
+  <link rel="stylesheet" href="../styles/categories.css" />
+  <script src="../scripts/script.js" defer></script>
+  <title>MOVIBE</title>
+</head>
+
+<body>
+  <header>
+    <!-- Used this tutorial to make hamburger menu https://www.youtube.com/watch?v=flItyHiDm7E -->
+    <nav class="navbar">
+      <img src="../images/logo.png" alt="logo" class="logo" onclick="window.location='../index.html'" />
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="../index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="categories.html" class="nav-link">Categories</a>
+        </li>
+        <li class="nav-item">
+          <a href="basket.html" class="nav-link">Basket</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="suggestions">
+      <div class="suggestions-item">
+        <img src="../images/boys-night.jpg" alt="" />
+        <p>Boys night</p>
+      </div>
+      <div class="suggestions-item" onclick="assignLocation('romanticdate.html')">
+        <img src="../images/romantic-date.jpg" alt="" />
+        <p>Romantic date</p>
+      </div>
+      <div class="suggestions-item">
+        <img src="../images/harry-potter-bridges-highlands.jpg" alt="" />
+        <p>Harry Potter</p>
+      </div>
+    </div>
+
+    <div class="all-categories">
+      <h2>With who?</h2>
+      <div class="categories">
+        <div class="categorie-item">
+          <p>Girls night</p>
+        </div>
+        <div class="categorie-item">
+          <p>Boys night</p>
+        </div>
+        <div class="categorie-item">
+          <p>Family night</p>
+        </div>
+        <div class="categorie-item" onclick="assignLocation('romanticdate.html')">
+          <p>Romantic date</p>
+        </div>
+        <div class="categorie-item">
+          <p>Kids only</p>
+        </div>
+      </div>
+
+      <h2>International</h2>
+      <div class="categories">
+        <div class="categorie-item">
+          <p>Belgium</p>
+        </div>
+        <div class="categorie-item">
+          <p>Venezuela</p>
+        </div>
+        <div class="categorie-item">
+          <p>Czech Republic</p>
+        </div>
+        <div class="categorie-item">
+          <p>Spain</p>
+        </div>
+        <div class="categorie-item">
+          <p>Japan</p>
+        </div>
+        <div class="categorie-item">
+          <p>Turkey</p>
+        </div>
+      </div>
+
+      <h2>Marathons</h2>
+      <div class="categories">
+        <div class="categorie-item">
+          <p>Star Wars</p>
+        </div>
+        <div class="categorie-item">
+          <p>Harry Potter</p>
+        </div>
+        <div class="categorie-item">
+          <p>Lord of The Rings</p>
+        </div>
+        <div class="categorie-item">
+          <p>High School Musical</p>
+        </div>
+        <div class="categorie-item">
+          <p>James Bond</p>
+        </div>
+      </div>
+
+      <h2>Holidays</h2>
+      <div class="categories">
+        <div class="categorie-item">
+          <p>Halloween</p>
+        </div>
+        <div class="categorie-item">
+          <p>Valentine's day</p>
+        </div>
+        <div class="categorie-item">
+          <p>Christmas</p>
+        </div>
+        <div class="categorie-item">
+          <p>Birthday</p>
+        </div>
+        <div class="categorie-item">
+          <p>Wedding</p>
+        </div>
+        <div class="categorie-item">
+          <p>Babyshower</p>
+        </div>
+      </div>
+
+      <h2>Emotions</h2>
+      <div class="categories">
+        <div class="categorie-item">
+          <p>Scary</p>
+        </div>
+        <div class="categorie-item">
+          <p>Laughing</p>
+        </div>
+        <div class="categorie-item">
+          <p>Romance</p>
+        </div>
+        <div class="categorie-item">
+          <p>Drama</p>
+        </div>
+        <div class="categorie-item">
+          <p>Crying</p>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
