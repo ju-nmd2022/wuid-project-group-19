@@ -22,16 +22,7 @@ main {
 
 h1 {
   text-align: left;
-  margin: 0;
-}
-
-.product-price {
-  font-size: 2em;
-  font-weight: bold;
-}
-
-.delivery {
-  font-size: smaller;
+  margin: 0 0 20px 0;
 }
 
 @media (max-width: 700px) {

@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,700;0,900;1,200;1,400&family=Righteous&display=swap');
-
 html {
   background: linear-gradient(#3a1394, #b82176);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   min-height: 100%;
-  cursor: url(../images/moviemouse.png) 10 10, default;
+  cursor: url(../images/moviemouse.png) 20 20, default;
 }
 
 body {
@@ -41,7 +39,7 @@ main.active {
   text-decoration: none;
   color: white;
   font-size: 1.2rem;
-  font-weight: 700;
+  font-weight: bold;
   transition: 0.4s ease;
 }
 
@@ -146,7 +144,7 @@ main.active {
     flex-direction: column;
     align-items: flex-end;
     transition: 0.3s;
-    background-color: rgba(30, 30, 30, 0.2);
+    background-color: rgba(30, 30, 30, 0.3);
   }
 
   .nav-menu.active {
@@ -168,16 +166,14 @@ main {
 h1 {
   color: white;
   text-align: center;
-  font-weight: 600;
-  font-size: 2.4em;
   margin: 180px 40px 40px 40px;
 }
 
 button {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2.4em;
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: bold;
   background-color: transparent;
   border: 4px solid #4cc9f0;
   border-radius: 10px;
@@ -186,6 +182,6 @@ button {
 }
 
 button:hover {
-  font-size: 2.6em;
+  font-size: 2.2em;
   cursor: pointer;
 }

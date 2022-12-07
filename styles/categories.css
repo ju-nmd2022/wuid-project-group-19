@@ -6,9 +6,8 @@ main.active {
   margin: 160px 0;
 }
 
-h2 {
+p {
   margin-top: 60px;
-  font-size: 1.4em;
   font-style: italic;
   opacity: 0.8;
 }
@@ -33,14 +32,9 @@ h2 {
   width: 600px;
   height: 220px;
   text-align: center;
-  color: white;
   border-radius: 10px;
-  font-size: 2em;
-  font-weight: 600;
   position: relative;
-  cursor:
-    /*  url(../images/mousehover.png),  */
-    pointer;
+  cursor: pointer;
 }
 
 .categorie-item {
@@ -57,20 +51,16 @@ h2 {
   filter: opacity(0.4);
 }
 
-.suggestions-item p {
+.suggestions-item h2 {
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.categorie-item p {
-  font-size: 0.78em;
-}
-
 .suggestions-item:first-child,
 .categorie-item:first-child,
-h2 {
+p {
   margin-left: 40px;
 }
 
