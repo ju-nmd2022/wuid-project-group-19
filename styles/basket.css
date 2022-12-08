@@ -12,6 +12,7 @@
 .hotchocolate {
   width: 130px;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 input {
